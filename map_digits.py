@@ -4,11 +4,6 @@
 digits = ["12", "145", "  45", "12.4", "45,14", "15 645"]
 
 
-'''def conv(x):
-    digits = [i.strip().replace(",", ".").replace(" ", "") for i in x]
-    digits = [float(i) for i in digits]
-    return digits'''
-
 def conv(x):
     return float(x.strip().replace(",", ".").replace(" ", ""))
 
